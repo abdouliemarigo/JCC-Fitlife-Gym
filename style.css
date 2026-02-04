@@ -1,0 +1,334 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+html{ 
+    scroll-behavior: smooth;
+}
+
+
+body{ 
+font-family: Georgia, serif;
+}
+#home{ 
+    
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+background-image:  linear-gradient(#1f211f9f,#1f211f9f) , url(images/hero-gym.jpg);
+    
+   
+}
+
+
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    line-height: 1.6;
+    color: orangered;
+    background-color: #040e2fdb
+    
+}
+.logo{ 
+    font-size: 30px;
+    font-weight: bold;
+    color: #c40c03;
+}
+.nav-links{ 
+display: flex;
+list-style: none;
+gap: 25px;
+
+}
+.nav-links a{ 
+    color: white;
+}
+.nav-links a:hover{ 
+    text-decoration: underline;
+    color: orangered;
+}
+
+.hero{ 
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1{ 
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.hero p{ 
+    max-width: 600px;
+    margin: 0 auto 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btn{ 
+    
+    display: inline-block;
+    padding: 12px 30px;
+    background-color:  #e91207a0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{ 
+    background-color: #E63946;
+}
+
+
+.healthcare{ 
+    background-color: #c0faaeb0;
+    border-radius: 10px;
+    margin-bottom: 25px;
+} 
+
+.services h2{ 
+    
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1f4f4f;
+}
+
+
+h3{ 
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f4f4f;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.healthcare p{ 
+    color: black;
+    line-height: 1.6;
+    padding: 0 10px 20px;
+    font-size: 16px;
+}
+
+ img{ 
+    border-radius: 22px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ img.office{ 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.list li{ 
+ padding: 20px;
+    background-color: #dff7f3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    border-left: 5px solid #3593578c;
+}
+
+/* .underline{ 
+    width: 100%;
+    height: 5px;
+    background-color: orangered;
+    margin: 0 auto 20px;
+    border-radius: 2px;
+      
+} */
+
+h2.line{ 
+    
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 4px solid orangered;  
+    border-radius: 2px; 
+}
+
+   /* Our Services Offer  */
+
+.description{ 
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #333;
+    font-size: 16px;
+}
+
+.plan{ 
+max-width: 900px;
+margin: 40px auto;
+}
+
+.plan-card{ 
+    background-color: #c0faaeb0;
+     padding: 20px 25px;
+    margin-bottom: 20px;
+    border-left: 4px solid #E63946;
+    border-radius: 4px;
+}
+
+.plan-card h3{ 
+    color: #E63946;
+    margin-bottom: 5px;
+}
+.price{ 
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #E63946;
+}
+.price span{ 
+    font-size: 18px;
+    font-weight: normal;
+    color: #E63946;
+}
+
+.plan-card ul{ 
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.plan-card li{ 
+    margin-bottom: 6px;
+    color: #333;
+}
+
+#contact-info{ 
+    background: #c0faaeb0;
+    padding: 30px 20px;
+margin-top: 40px;
+}
+#contact-info h2 h3{ 
+    color: #1D3557;
+    margin-bottom: 15px;
+}
+#contact-info p{
+margin-bottom: 10px;
+color: #333;
+}
+
+
+.about{ 
+    text-align: center;
+    padding: 40px 20px;
+    line-height: 1.6;
+    background-color:  #0f65df;
+    color: #ffffff;
+}
+
+#story p{ 
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+h3{ 
+   padding: 20px;
+}
+
+.our-facilities h2{ 
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1f4f4f;
+}
+.our-facilities p{ 
+    margin-bottom: 20px;
+      
+}
+.our-facilities ul{ 
+    color: #171414;
+    line-height: 1.6;
+    padding:  0 10px 20px;
+    font-size: 16px;
+}
+
+img.office{ 
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+img.trainer{ 
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
+/* Contact Us */
+
+.gap{ 
+    margin-bottom: 25px;
+}
+
+label{ 
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333333;
+}
+form input,select,textarea{ 
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 18px;
+    border: 2px solid #bbf0a9;
+    border-radius: 4px;
+}
+
+
+
+button{ 
+    background:#e91207 ;
+    color: #ffffff;
+    border: none;
+    margin: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{ 
+    background: #e91207c9;
+}
+
+
+
+
+
+footer{ 
+    background-color: #0f1b31;
+    color: #ffffff;
+    text-align: center;
+    margin-top:30px;
+    font-size: 14px;
+    padding: 15px;
+}
+footer a{ 
+    color: orangered;
+    
+}
+footer a:hover{ 
+    text-decoration: underline;
+    color: #ffffff;
+}
